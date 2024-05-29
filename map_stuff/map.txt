@@ -1,0 +1,6 @@
+{
+	"#ff6a00": "Hungary",
+	"#ffffff": "Austria",
+	"#ff009d": "Czechia",
+	"#4cff00": "Slovakia"
+}

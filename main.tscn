@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://dvutthfv5nns5"]
+
+[ext_resource type="Texture2D" uid="uid://cu358bnobviro" path="res://map_stuff/map.bmp" id="1_e0tyq"]
+[ext_resource type="Script" path="res://main.gd" id="1_ljoqa"]
+[ext_resource type="Script" path="res://Regions.gd" id="3_jppo4"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_ljoqa")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+texture_repeat = 1
+texture = ExtResource("1_e0tyq")
+centered = false
+
+[node name="Regions" type="Node2D" parent="."]
+script = ExtResource("3_jppo4")

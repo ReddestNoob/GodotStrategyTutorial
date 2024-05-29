@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8w71okjx8d0n"]
+
+[ext_resource type="Script" path="res://region_area.gd" id="1_4q1g4"]
+
+[node name="Node2D" type="Area2D"]
+script = ExtResource("1_4q1g4")
+
+[connection signal="child_entered_tree" from="." to="." method="_on_child_entered_tree"]
+[connection signal="input_event" from="." to="." method="_on_input_event"]
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
